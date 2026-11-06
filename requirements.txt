@@ -1,0 +1,10 @@
+gradio>=4.40
+torch
+transformers>=4.44
+sentencepiece
+sacrebleu>=2.4
+# AI4Bharat IndicXlit (transliteration)
+ai4bharat-transliteration
+# IndicTrans2 pre/post-processing (install from GitHub if the PyPI build is unavailable)
+git+https://github.com/VarunGumma/IndicTransToolkit.git
+pytest
